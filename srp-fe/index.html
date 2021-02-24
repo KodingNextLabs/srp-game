@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SRP</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>SRP (Scissor Rock and Paper) Game</h2>&nbsp;
+    <small>Please choice your hand!</small>
+  </div>
+  <div class="container">
+    <div class="user-choice">
+      <img id="user-rock" src="./rock.png" class="img-responsive" alt="Rock" />
+      <img id="user-paper" src="./paper.png" class="img-responsive" alt="Paper" />
+      <img id="user-scissor" src="./scissor.png" class="img-responsive" alt="Scissor" />
+
+      <img id="comp-rock" src="./rock.png" class="img-responsive" alt="Rock" />
+      <img id="comp-paper" src="./paper.png" class="img-responsive" alt="Paper" />
+      <img id="comp-scissor" src="./scissor.png" class="img-responsive" alt="Scissor" />
+      <img id="comp-default" src="./default.png" class="img-responsive" alt="Scissor" />
+    </div>
+  </div>
+  <div class="container">
+    <div class="result">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="result">
+      <button class="btn" onclick="location.reload()">Reset</button>
+    </div>
+  </div>
+  <script src="./game.js"></script>
+</body>
+</html>
