@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand");
+
+* {
+    font: normal 22px/25px "Patrick Hand", sans-serif;
+}
+
+div.container {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-choice {
+  background: #dadada;
+}
+
+.comp-choice {
+  background: #dadada;
+}
+
+.user-choice,
+.comp-choice {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  height: auto;
+  margin-right: 10px;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#comp-rock,
+#comp-paper,
+#comp-scissor {
+  display: none;
+}
+
+.img-responsive {
+  width: 20%;
+  height: auto;
+  padding-right: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+h2 {
+  color: #333333;
+  display: flex;
+  font-size: 160%;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  shadow: 2px 1px #fff;
+  background: #7965aa;
+  color: white;
+}
